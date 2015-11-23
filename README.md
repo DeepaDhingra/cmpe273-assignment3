@@ -87,7 +87,7 @@ Response:
 
 
 
-  PUT        /trips/{trip_id}/request # Start the trip by requesting UBER for the first destination. You will call UBER request API to request a car from starting point to the next destination.
+3) PUT        /trips/{trip_id}/request # Start the trip by requesting UBER for the first destination. You will call UBER request API to request a car from starting point to the next destination.
         
 
         UBER Request API:  PUT /v1/sandbox/requests/{request_id}
