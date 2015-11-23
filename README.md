@@ -7,9 +7,11 @@ The trip planner is a feature that will take a set of locations from the databas
 
 Execution Steps:
 
-Compile and run the go files using
+Import following packages and the run the go files using go run command: 
+"github.com/julienschmidt/httprouter"
+"github.com/anweiss/uber-api-golang/uber"
 
-go run file1.go file2.go
+
 
 GET        /trips/{trip_id} # Check the trip details and status
 PUT        /trips/{trip_id}/request 
