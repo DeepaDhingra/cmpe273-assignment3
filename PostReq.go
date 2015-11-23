@@ -175,7 +175,7 @@ DisUber=0
 var DurUber int
 DurUber=0
 
-	fmt.Println("\nHere are the Uber price estimates from The White House to the United States Capitol: \n")
+	fmt.Println("\nHere are the Uber price estimates: \n")
 	for _, price := range pe.Prices {
 	if(price.DisplayName=="uberX"){
 	PriceUber=price.LowEstimate
